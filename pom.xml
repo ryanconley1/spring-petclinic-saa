@@ -248,6 +248,10 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+    <repository>
+          <id>spring-enterprise-subscription</id>
+          <url>https://packages.broadcom.com/artifactory/spring-enterprise</url>
+    </repository>
   </repositories>
 
   <pluginRepositories>
@@ -266,6 +270,10 @@
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
+    </pluginRepository>
+    <pluginRepository>
+          <id>spring-enterprise-subscription</id>
+          <url>https://packages.broadcom.com/artifactory/spring-enterprise</url>
     </pluginRepository>
   </pluginRepositories>
 

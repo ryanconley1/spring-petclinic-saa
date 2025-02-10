@@ -12,6 +12,17 @@ sourceCompatibility = '11'
 
 repositories {
   mavenCentral()
+  maven {
+    url "https://packages.broadcom.com/artifactory/spring-enterprise"
+    credentials {
+      username “ryan.conley@broadcom.com“
+      password “ARTIFACTORY_TOKEN”
+  }
+      authentication {
+        basic(BasicAuthentication)
+      }
+      mavenCentral()
+    }
 }
 
 ext.webjarsFontawesomeVersion = "4.7.0"
